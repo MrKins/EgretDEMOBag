@@ -29,6 +29,7 @@
 
 class Main extends egret.DisplayObjectContainer {
 
+    private mainPanel: MainPanel;
     //加载进度界面
     private loadingView: LoadingUI;
 
@@ -94,7 +95,13 @@ class Main extends egret.DisplayObjectContainer {
 
     //创建游戏场景
     private createGameScene() {
+        fairygui.UIPackage.addPackage("ForDemoBag");
 
+        fairygui.UIObjectFactory.setLoaderExtension(MyGLoader);
+
+        this.stage.addChild(fairygui.GRoot.inst.displayObject);
+
+        this.mainPanel = new MainPanel();
     }
 
     //根据name关键字创建一个Bitmap对象。name属性请参考resources/resource.json配置文件的内容。
@@ -104,7 +111,4 @@ class Main extends egret.DisplayObjectContainer {
         result.texture = texture;
         return result;
     }
-
 }
-
-

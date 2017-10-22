@@ -12,6 +12,8 @@ var game_file_list = [
 	"polyfill/promise.js",
 	"bin-debug/LoadingUI.js",
 	"bin-debug/Main.js",
+	"bin-debug/MainPanel.js",
+	"bin-debug/MyGLoader.js",
 	//----auto game_file_list end----
 ];
 
@@ -47,8 +49,8 @@ egret_native.egretStart = function () {
 		entryClassName: "Main",
 		frameRate: 30,
 		scaleMode: "showAll",
-		contentWidth: 640,
-		contentHeight: 1136,
+		contentWidth: 1920,
+		contentHeight: 1080,
 		showPaintRect: false,
 		showFPS: false,
 		fpsStyles: "x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9",

@@ -1,23 +1,85 @@
 {
-	"groups":[
-	{
-		"keys":"bg_jpg,egret_icon_png,description_json",
-		"name":"preload"
-	}],
-	"resources":[
-	{
-		"name":"bg_jpg",
-		"type":"image",
-		"url":"assets/bg.jpg"
-	},
-	{
-		"name":"egret_icon_png",
-		"type":"image",
-		"url":"assets/egret_icon.png"
-	},
-	{
-		"name":"description_json",
-		"type":"json",
-		"url":"config/description.json"
-	}]
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,ForDemoBag@atlas0_png,i9_png,i0_png,i1_png,i2_png,i3_png,i4_png,i5_png,i6_png,i7_png,i8_png,ForDemoBag",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/ForDemoBag@atlas0.png",
+			"type": "image",
+			"name": "ForDemoBag@atlas0_png"
+		},
+		{
+			"url": "assets/i9.png",
+			"type": "image",
+			"name": "i9_png"
+		},
+		{
+			"url": "assets/i0.png",
+			"type": "image",
+			"name": "i0_png"
+		},
+		{
+			"url": "assets/i1.png",
+			"type": "image",
+			"name": "i1_png"
+		},
+		{
+			"url": "assets/i2.png",
+			"type": "image",
+			"name": "i2_png"
+		},
+		{
+			"url": "assets/i3.png",
+			"type": "image",
+			"name": "i3_png"
+		},
+		{
+			"url": "assets/i4.png",
+			"type": "image",
+			"name": "i4_png"
+		},
+		{
+			"url": "assets/i5.png",
+			"type": "image",
+			"name": "i5_png"
+		},
+		{
+			"url": "assets/i6.png",
+			"type": "image",
+			"name": "i6_png"
+		},
+		{
+			"url": "assets/i7.png",
+			"type": "image",
+			"name": "i7_png"
+		},
+		{
+			"url": "assets/i8.png",
+			"type": "image",
+			"name": "i8_png"
+		},
+		{
+			"url": "assets/ForDemoBag.fui",
+			"type": "bin",
+			"name": "ForDemoBag"
+		}
+	]
 }
