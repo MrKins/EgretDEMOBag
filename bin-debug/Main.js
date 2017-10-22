@@ -92,7 +92,7 @@ var Main = (function (_super) {
     //创建游戏场景
     Main.prototype.createGameScene = function () {
         fairygui.UIPackage.addPackage("ForDemoBag");
-        //fairygui.UIObjectFactory.setLoaderExtension(MyGLoader);
+        fairygui.UIObjectFactory.setLoaderExtension(MyGLoader);
         this.stage.addChild(fairygui.GRoot.inst.displayObject);
         this.mainPanel = new MainPanel();
     };
